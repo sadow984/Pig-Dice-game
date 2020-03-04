@@ -17,7 +17,7 @@ document.querySelector(".btn-roll").addEventListener("click", () => {
       var dice;
       dice = Math.floor(Math.random() * 6) + 1;
       document.querySelector(".dice").style.display = "block";
-      document.querySelector(".dice").src = "dice-" + dice + ".png";
+      document.querySelector(".dice").src = "assets/dice-" + dice + ".png";
       document.querySelector("#current-" + activePlayer).textContent = dice;
 
       if (dice !== 1) {
